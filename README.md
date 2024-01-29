@@ -14,6 +14,7 @@ I created two bar charts called "Total observed timepoints for each drug regimen
 ![Alt text](Bar1.png)
 ![Alt text](Bar2.png)
 
+
 2. The bar charts indicate that Capomulin and Ramicane are the two regimen with the most observed mouse timepoints. 
 
 3. The pie chart indicates that male mice and female mice are selected equaly, therefore the sex factor does not need to be considered, when evaluating the running result.
@@ -26,7 +27,7 @@ I created two bar charts called "Total observed timepoints for each drug regimen
 5. The regression plot indicates that:
    1. There is a positive correlation between mouse weight and average tumor volume.
    2.  The strength of this relationship is fairly strong given the R-squared value, which implies that weight is a good predictor of tumor volume in this context.
-   ![Alt text](image-6.png)
+   ![Alt text](image-3.png)
 
 
 
@@ -39,6 +40,7 @@ When I tried to make a regression plot, I had bugs as below.
 So I checked all the coding and compared with the class activities' coding, and did not know what caused the bug. 
 
 ![Alt text](image-1.png)
+
 
 Then I inquired with ChatGPT, and it reminded me that whether I installed scipy that I already finished the installation, and that whether I run the scipy.stats environment, by adding "From scripy.stats import linregress" 
 
